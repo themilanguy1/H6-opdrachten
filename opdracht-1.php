@@ -1,15 +1,11 @@
 <?php
 session_start();
 
-$_SESSION["bekeken"] = $_SESSION["bekeken"] + 1;
-
 if(isset ($_SESSION["bekeken"])) {
+    $_SESSION["bekeken"] = $_SESSION["bekeken"] + 1;
     echo "pagina bezocht: ".$_SESSION["bekeken"]. " keer";
+} else {
+    $_SESSION["bekeken"] = 0;
 }
-else {
-    echo "sessie nog niet geset";
-}
-
-
 
 ?>
