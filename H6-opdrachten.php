@@ -26,8 +26,8 @@ if(isset ($_SESSION["bekeken"])) {
 
 <br>
 <br>
-
 <h3>opdracht 2</h3>
+
 <?php
 if(!isset($_COOKIE['cookie'])) {
     $cookie_value = 1;
@@ -53,16 +53,34 @@ if(isset($_COOKIE['cookie'])) {
 }
 
 ?>
+
 <br>
 <br>
 <h3>opdracht 3</h3>
+
 <?php
 Tekstvak: 
-Echo rand(1000,9999) . " " 
+Echo rand(1000,9999) 
+. " " 
 . range('A','Z'){mt_rand(0,25)} 
 . range('A','Z'){mt_rand(0,25)};
 
 
 
+
+?>
+
+<br>
+<br>
+<h3>opdracht 4</h3>
+
+<?php
+$input = 10;
+$omtrek = 2 * 3.14159 * $input;
+$oppervlakte = 3.14159 * ($input * $input);
+
+echo "input was: $input <br>";
+echo "omtrek van een cirkel met een radius van $input is: $omtrek <br>";
+echo "oppervlakte van een cirkel met een radius van $input is: $oppervlakte <br>";
 
 ?>
