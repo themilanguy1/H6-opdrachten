@@ -5,8 +5,12 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
+
 <a href="https://www.ictacademie.info/milangupta/downloads/DEVEL 10 toetsvragen H6.docx">
 <button class="btn btn-primary">Download 10 vragen H6</button>
+</a>
+<a href="https://www.ictacademie.info/milangupta/downloads/H6-opdrachten.zip">
+<button class="btn btn-primary">Download PHP code van H6</button>
 </a>
 
 <h2 class="text-center">Hoofdstuk 6</h2>
@@ -96,3 +100,13 @@ $s=50;
 $v=(sqrt(2*$a*$s))*3.6;
 echo "snelheid van een auto met een remspoor van $s is: $v";
 ?>
+
+<br>
+<br>
+<h3>opdracht 6</h3>
+
+<?php
+$euro=76.13;
+$dollar=$euro*1.22604;
+echo "&euro;$euro is $" .number_format("$dollar",2);
+?> 
