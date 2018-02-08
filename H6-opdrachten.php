@@ -84,3 +84,15 @@ echo "omtrek van een cirkel met een radius van $input is: $omtrek <br>";
 echo "oppervlakte van een cirkel met een radius van $input is: $oppervlakte <br>";
 
 ?>
+
+<br>
+<br>
+<h3>opdracht 5</h3>
+
+<?php
+$a=5.5;
+$s=50;
+
+$v=(sqrt(2*$a*$s))*3.6;
+echo "snelheid van een auto met een remspoor van $s is: $v";
+?>
